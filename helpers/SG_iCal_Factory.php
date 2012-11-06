@@ -1,4 +1,4 @@
-<?php // BUILD: Remove line
+<?php
 
 /**
  * A simple Factory for converting a section/data pair into the
@@ -26,13 +26,13 @@ class SG_iCal_Factory {
 	public static function factory( SG_iCal $ical, $section, $data ) {
 		switch( $section ) {
 			case "vcalendar":
-				require_once dirname(__FILE__).'/../blocks/SG_iCal_VCalendar.php'; // BUILD: Remove line
+				require_once dirname(__FILE__).'/../blocks/SG_iCal_VCalendar.php';
 				return new SG_iCal_VCalendar(SG_iCal_Line::Remove_Line($data), $ical );
 			case "vtimezone":
-				require_once dirname(__FILE__).'/../blocks/SG_iCal_VTimeZone.php'; // BUILD: Remove line
+				require_once dirname(__FILE__).'/../blocks/SG_iCal_VTimeZone.php';
 				return new SG_iCal_VTimeZone(SG_iCal_Line::Remove_Line($data), $ical );
 			case "vevent":
-				require_once dirname(__FILE__).'/../blocks/SG_iCal_VEvent.php'; // BUILD: Remove line
+				require_once dirname(__FILE__).'/../blocks/SG_iCal_VEvent.php';
 				return new SG_iCal_VEvent($data, $ical );
 
 			default:

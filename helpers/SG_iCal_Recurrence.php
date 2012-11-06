@@ -1,4 +1,4 @@
-<?php // BUILD: Remove line
+<?php
 
 /**
  * A wrapper for recurrence rules in iCalendar.  Parses the given line and puts the

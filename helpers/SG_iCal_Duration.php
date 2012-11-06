@@ -1,4 +1,4 @@
-<?php // BUILD: Remove line
+<?php
 
 /**
  * A class for calculating how many seconds a duration-string is

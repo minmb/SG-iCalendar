@@ -1,4 +1,4 @@
-<?php // BUILD: Remove line
+<?php
 
 /**
  * A class to store Frequency-rules in. Will allow a easy way to find the

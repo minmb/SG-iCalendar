@@ -1,4 +1,4 @@
-<?php // BUILD: Remove line
+<?php
 
 /**
  * A class for storing a single (complete) line of the iCal file.

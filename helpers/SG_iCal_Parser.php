@@ -1,4 +1,4 @@
-<?php // BUILD: Remove line
+<?php
 
 class SG_iCal_Parser {
 	/**

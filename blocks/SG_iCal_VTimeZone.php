@@ -1,4 +1,4 @@
-<?php // BUILD: Remove line
+<?php
 
 /**
  * The wrapper for vtimezones. Stores the timezone-id and the setup for
@@ -18,7 +18,7 @@ class SG_iCal_VTimeZone {
 	 * Constructs a new SG_iCal_VTimeZone
 	 */
 	public function __construct( $data ) {
-		require_once dirname(__FILE__).'/../helpers/SG_iCal_Freq.php'; // BUILD: Remove line
+		require_once dirname(__FILE__).'/../helpers/SG_iCal_Freq.php';
 
 		$this->tzid = $data['tzid'];
 		$this->daylight = $data['daylight'];

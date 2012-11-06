@@ -1,4 +1,4 @@
-<?php // BUILD: Remove line
+<?php
 
 /**
  * The wrapper for vevents. Will reveal a unified and simple api for
